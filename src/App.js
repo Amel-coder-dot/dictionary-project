@@ -13,7 +13,34 @@ export default function App() {
           <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Freya Collie</small>
+          <small>
+            Coded by{" "}
+            <a
+              href="https://github.com/Amel-coder-dot"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Freya Collie
+            </a>{" "}
+            and is open-souced on
+            <a
+              href="https://github.com/Amel-coder-dot/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Github
+            </a>{" "}
+            and is hosted on
+            <a
+              href="https://darling-sprinkles-f9e58f.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
